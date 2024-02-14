@@ -120,7 +120,7 @@ LIMIT 5;
 ```sql
 SELECT category_id, name
 FROM dvd_rentals.category
-ORDER BY category_id DESC
+ORDER BY category_id DESC;
 ```
 
 > 2. For the films with the longest length, what is the title of the “R” rated film with the lowest replacement_cost in dvd_rentals.film table?
@@ -130,7 +130,7 @@ SELECT title, rating, length, replacement_cost
 FROM dvd_rentals.film
 WHERE rating = 'R'
 ORDER BY length DESC, replacement_cost
-LIMIT 5
+LIMIT 5;
 ```
 
 > 3. Who was the manager of the store with the highest total_sales in the dvd_rentals.sales_by_store table?
@@ -138,7 +138,7 @@ LIMIT 5
 ```sql
 SELECT manager, total_sales
 FROM dvd_rentals.sales_by_store
-ORDER BY total_sales DESC
+ORDER BY total_sales DESC;
 ```
 
 > 4. What is the postal_code of the city with the 5th highest city_id in the dvd_rentals.address table?
@@ -147,7 +147,7 @@ ORDER BY total_sales DESC
 SELECT city_id, postal_code
 FROM dvd_rentals.address
 ORDER BY city_id DESC
-LIMIT 5
+LIMIT 5;
 ```
 
 OR
@@ -156,5 +156,5 @@ OR
 SELECT city_id, postal_code
 FROM dvd_rentals.address
 ORDER BY city_id DESC
-LIMIT 1 OFFSET 4
+LIMIT 1 OFFSET 4;
 ```
