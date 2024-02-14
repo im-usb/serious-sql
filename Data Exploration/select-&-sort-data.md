@@ -149,3 +149,12 @@ FROM dvd_rentals.address
 ORDER BY city_id DESC
 LIMIT 5
 ```
+
+OR
+
+```sql
+SELECT city_id, postal_code
+FROM dvd_rentals.address
+ORDER BY city_id DESC
+LIMIT 1 OFFSET 4
+```
