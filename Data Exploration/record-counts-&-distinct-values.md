@@ -1,5 +1,21 @@
 # Record Counts and Distinct Values
 
+### Schema Name: dvd_rentals
+
+### Tables Covered:
+
+1. **film_list**: Contains detailed information about films available for rental, including titles, ratings, categories, and prices.
+2. **film_actor**: Likely a junction table linking films to actors, indicating which actors appear in which films.
+3. **nicer_but_slower_film_list**: A variant of the film_list table, possibly optimized for certain operations or queries.
+4. **city**: Stores data about cities, possibly related to store locations or customer addresses.
+5. **sales_by_film_category**: Provides sales data categorized by film category, essential for analyzing sales trends.
+6. **payment**: Contains data related to payments made for DVD rentals, including payment dates and amounts.
+7. **rental**: Likely stores rental transactions, including customer IDs, inventory IDs, and rental dates.
+
+### Summary:
+
+These tables cover various aspects of a DVD rental business, including film details, sales data, payments, rental transactions, and geographical information. Analyzing data from these tables can provide valuable insights into customer preferences, sales performance, inventory management, and geographical distribution of rentals.
+
 ## 1. How Many Records
 
 > How many rows are there in the film_list table?
