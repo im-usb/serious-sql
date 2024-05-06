@@ -1,5 +1,24 @@
 # Select & Sort Data
 
+### Schema Name: dvd_rentals
+
+#### Tables Covered:
+
+1. **languages**: Contains information about different languages used in DVDs.
+2. **actor**: Stores data related to actors involved in films.
+3. **country**: Holds information about countries, possibly related to DVD distribution or film settings.
+4. **sales_by_film_category**: Provides sales data categorized by film category, essential for analyzing sales trends.
+5. **payment**: Contains data related to payments made for DVD rentals.
+6. **rental**: Stores rental transactions, including customer IDs, inventory IDs, and rental dates.
+7. **category**: Contains information about film categories.
+8. **film**: Stores data related to films, including titles, ratings, lengths, and replacement costs.
+9. **sales_by_store**: Provides sales data categorized by store, crucial for store performance analysis.
+10. **address**: Contains addresses, possibly related to store locations or customer addresses.
+
+### Summary:
+
+These tables cover various aspects of a DVD rental business, including film details, sales, payments, rentals, actors, and store information. Analyzing data from these tables can provide valuable insights into customer preferences, sales performance, and inventory management.
+
 ## 1. How To Query Data
 
 ### 1.1 Select All Columns
