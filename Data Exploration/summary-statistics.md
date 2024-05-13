@@ -202,7 +202,7 @@ Output:
 
 #### 4.2.1. Spread For Normal Distribution
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 - Normal distributions are encountered in various aspects of life, often without realizing it. One such example is students particularly preparing for competitive high school entrance exams. These exams are crucial for securing admission to prestigious schools, accepting only the top 120 students nationwide (the intake can be different based on various factors). Upon receiving results, percentile values are assigned to indicate performance relative to other test-takers. Percentiles are calculated based on
 
@@ -211,7 +211,7 @@ Output:
 
 For example, if the author scored 95 on a test with an average of 75 and a standard deviation of 10, their percentile would be indicated on the chart.
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 ### 4.3. The Empirical Rule or Confidence Intervals
 
@@ -227,7 +227,7 @@ For example, if the author scored 95 on a test with an average of 75 and a stand
 | 95%                  | μ±2×σ           |
 | 99.7%                | μ±3×σ           |
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 ## 5. Calculating All The Summary Statistics
 
@@ -266,7 +266,7 @@ For this tutorial we have focused on the filtered records WHERE measure = 'weigh
 
 One popular method to detect an uneven distribution in the dataset is to compare the average, mode and median values - this statistical property is known as a skew in the distribution.
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 1. What is the average, median and mode values of blood glucose values to 2 decimal places?
 
@@ -325,7 +325,7 @@ Output:
 
 3. Calculate the 2 Pearson Coefficient of Skewness for blood glucose measures given the following formulas:
 
-![alt text](image-4.png)
+![alt text](./images/image-4.png)
 
 ```sql
 WITH metric_data AS (
